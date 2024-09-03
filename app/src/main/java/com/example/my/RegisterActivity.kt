@@ -41,18 +41,7 @@ class RegisterActivity : AppCompatActivity() {
             Toast.makeText(this, kumpul+kumpul1, Toast.LENGTH_SHORT).show()
         }
 
-       /* choose.setOnClickListener( {
-            Calendar calendar = Calendar.getInstance();
-            int year = calendar.get(Calendar.YEAR);
-            int month = calendar.get(Calendar.MONTH);
-            int day = calendar.get(Calendar.DAY_OF_MONTH);
-            // Create and show the DatePickDialog
-
-            new DatePickerDialog(RegisterActivity.this, (view, year1, month1, dayOfMonth) -> {
-                date = dayOfMonth + "/" + (month1 + 1) + "/" + year1;
-            datePick.setText(date);
-        } year, month, day).show();
-        }*/
+       
 
         choose.setOnClickListener {
     val calendar = Calendar.getInstance()
